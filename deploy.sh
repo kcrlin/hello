@@ -36,7 +36,8 @@ cp $PROJ_PATH/hello/target/hello-0.0.1-SNAPSHOT.jar $HELLO_APP_PATH/
 cd $HELLO_APP_PATH
 mv hello-0.0.1-SNAPSHOT.jar hello.jar
 
-java -jar hello.jar
+# 启动hello并且设置为后台运行
+java -jar hello.jar &
 
 
 

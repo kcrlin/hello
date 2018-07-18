@@ -37,7 +37,7 @@ cd $HELLO_APP_PATH
 mv hello-0.0.1-SNAPSHOT.jar hello.jar
 
 # 启动hello并且设置为后台运行
-java -jar hello.jar &
+nohup java -jar hello.jar &
 
 
 
